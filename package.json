@@ -1,0 +1,28 @@
+{
+  "name": "98_generation_team",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FACG5/98_generation_Team.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FACG5/98_generation_Team/issues"
+  },
+  "homepage": "https://github.com/FACG5/98_generation_Team#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "nodemon": "^1.18.3",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1"
+  }
+}
