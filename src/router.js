@@ -19,6 +19,8 @@ home.serveStatic(endpoint,response);
 home.jsonFile(request, response);
 }else {
  home.err(request ,response)
+ console.log(endpoint);
+
 }
 
 }
