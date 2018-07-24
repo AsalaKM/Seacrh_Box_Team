@@ -1,3 +1,83 @@
-h1{
-    color:red;
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.content{
+    background: url(../img/cover.jpeg) center center no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 100vh;
+    display: flex;
+    padding: 100px 20px 20px 20px;
+    justify-content: center;
+}
+.center{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width:250px;
+    height: 250px;
+    margin-top:px;
+}
+.rgba{
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top:120px;
+    left:10px;
+}
+@keyframes rotate {
+    0%  {transform: rotate(0deg);}
+    10% {transform: rotate(20deg);}
+    25%   {transform: rotate(40deg);}
+    30%  {transform: rotate(60deg);}
+    35%  {transform: rotate(80deg);}
+    40%  {transform: rotate(100deg);}
+    45%  {transform: rotate(140deg);}
+    50% {transform: rotate(160deg);}
+    55%   {transform: rotate(180deg);}
+    60%  {transform: rotate(200deg);}
+    65%  {transform: rotate(220deg);}
+    70%  {transform: rotate(240deg);}
+    75% {transform: rotate(260deg);}
+    80%   {transform: rotate(280deg);}
+    85%  {transform: rotate(300deg);}
+    90%  {transform: rotate(320deg);}
+    95%  {transform: rotate(340deg);}
+    100% {transform: rotate(360deg);}
+}
+.fa-search{
+    font-size:45px;
+    color: bisque;
+    display: inline-block;
+    cursor: pointer;
+    animation:rotate 2s linear 0s infinite;
+}
+.search{
+    display: block;
+    visibility: hidden;
+}
+button{
+    background: none;
+    outline: none;
+    border: none;
+}
+.search .seach-input{
+    padding: 10px;
+    width: 500px;
+    border: 5px solid bisque;
+    color: rgb(82, 82, 82);
+    font-weight: bold;
+    border-radius: 10px;
 }
