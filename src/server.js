@@ -1,6 +1,6 @@
 var http = require('http');
 var router  = require('./router');
-var port = process.env.port || 4000;
+var port = process.env.PORT || 4000;
 
 
 http.createServer(router).listen(port);
