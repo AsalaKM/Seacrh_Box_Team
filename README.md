@@ -1,8 +1,8 @@
-
 # Countries Maps
-Autocomplete app for Countries.
+### Autocomplete app for Countries
 
-![Countries Maps](our link..)
+![Countries Maps](https://countries-search.herokuapp.com/)
+
 
 ## What?
 
@@ -31,20 +31,15 @@ Our website that give you ability to enter your country name in the search text 
   * **img folder** : contains the images.
   * **js folder** : contains the script.js.
   * **css folder** : contain the style.css and media.css.
- * **and** the index.html.
-
-  2. **src folder:**
-   The back end part contains js files (router.js, server.js, function.js 
+  * **and** the index.html.
+ 2. **src folder:**
+   The back end part contains js files (router.js, server.js, function.js
   and contains one **sub-file that contain data: (names.json)**.
-
    2. **test folder:**
    * Here we have the testing part of our project in the test.js file.
 
-
-
 ## What we learn!!
-
-  * How to initialize a project's package.json.
+ * How to initialize a project's package.json.
   * Creating a basic http server.
   * Creating a router for your server.
   * Learning how to use the fs core module to read and write from the file system.
@@ -68,8 +63,4 @@ Our website that give you ability to enter your country name in the search text 
 
       Run  `node src/server.js `
 
-Navigate to http://localhost:4004/ in your browser
 
-[check the site](our url ..)
-
->Done By : Kan'an,Asala,Donia.
