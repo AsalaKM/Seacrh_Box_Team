@@ -7,14 +7,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="./public/css/media.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="form">
-        <input type="text">
-        <input type="submit" value="Search">
-    </div>
-
+    <header class="head">
+        <h1>Country searchers</h1>
+    </header>
+    <main class="content"  id="content">
+        <div class="search">
+            <form class="search-form" action="" method="get">
+                <input type="text" name="seach-input" class="seach-input" id="search-inp" placeholder="press any key">
+                <span class="fas fa-times-circle end"></span>
+            </form>  
+        </div>
+        <div class="search-btn">
+            <div class="rgba"> 
+                 <p class="fas fa-search" id="btn"></p>
+            </div>
+        </div>
+    </main>
+    <footer class="foot"></footer>
 </body>
 <script src="./public/js/script.js"></script>
 <script src="./public/js/script2.js"></script>
