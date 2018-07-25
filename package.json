@@ -7,8 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "start":"node server.js",
-    "test": "nodemon ./src/server.js"
+    "start":"node ./src/server.js",
+    "test": "nodemon ./src/server.js",
+    "postinstall": "bower install && grunt build"
   },
   "repository": {
     "type": "git",
