@@ -1,3 +1,105 @@
-h1{
-    color:red;
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
 }
+body{
+    width: 100%;
+    height: 100vh;
+    background: url(./public/img/cover.jpeg) center center no-repeat;
+    background-size: cover;
+    padding: 50px 20px 10px 20px;
+}
+.head{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.head h1{
+    text-align: center;
+    color:#443a3acf;
+    text-shadow: 2px 2px 3px bisque;
+    font-size: 50px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman' , serif;
+}
+.content{
+    width:80%;
+    margin: 0 auto;
+    position: relative;
+}
+.search-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.rgba{
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    animation:rotate 2s linear 0s infinite;
+    /*border:2px solid bisque;*/
+    position: absolute;
+    top:80px;
+    left:390px;
+}
+.fa-search{
+    font-size:45px;
+    color: bisque;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+@keyframes rotate {
+    0%  {transform: rotate(0deg);}
+    10% {transform: rotate(20deg);}
+    25%   {transform: rotate(40deg);}
+    30%  {transform: rotate(60deg);}
+    35%  {transform: rotate(80deg);}
+    40%  {transform: rotate(100deg);}
+    45%  {transform: rotate(140deg);}
+    50% {transform: rotate(160deg);}
+    55%   {transform: rotate(180deg);}
+    60%  {transform: rotate(200deg);}
+    65%  {transform: rotate(220deg);}
+    70%  {transform: rotate(240deg);}
+    75% {transform: rotate(260deg);}
+    80%   {transform: rotate(280deg);}
+    85%  {transform: rotate(300deg);}
+    90%  {transform: rotate(320deg);}
+    95%  {transform: rotate(340deg);}
+    100% {transform: rotate(360deg);}
+}
+.search{
+    display: block;
+    visibility: hidden;
+    text-align: center;
+}
+.search .seach-input{
+    height: 50px;
+    width:600px;
+    padding:15px 20px 15px 20px;
+    border: 5px solid bisque;
+    color: rgb(82, 82, 82);
+    font-weight: bold;
+    border-radius:15px;
+    outline: none;
+    font-size: 17px;
+    letter-spacing: 1px;
+    transition:0.4s ease-in-out;
+}
+.search .seach-input[type=text]:focus {
+    width:700px;
+    padding:20px 20px 20px 20px;
+  }
+  .end{
+    color:#443a3acf;
+      font-size: 30px;
+      cursor: pointer;
+      display: inline-block;
+  }

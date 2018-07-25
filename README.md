@@ -1,8 +1,8 @@
-
 # Countries Maps
 ### Autocomplete app for Countries
 
 ![Countries Maps](https://countries-search.herokuapp.com/)
+
 
 ## What?
 
@@ -63,8 +63,4 @@ Our website that give you ability to enter your country name in the search text 
 
       Run  `node src/server.js `
 
-Navigate to http://localhost:4000/ in your browser
 
-[check the site](https://countries-search.herokuapp.com/)
-
-Done By : Kan'an,Asala,Donia.
