@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "start":"node server.js",
     "test": "nodemon ./src/server.js"
   },
   "repository": {
