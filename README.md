@@ -1,8 +1,8 @@
 
-# Country searchers
+# Countries Maps
 Autocomplete app for Countries.
 
-![Countries](our link..)
+![Countries Maps](our link..)
 
 ## What?
 
