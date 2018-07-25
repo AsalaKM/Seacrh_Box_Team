@@ -1,7 +1,7 @@
 # Countries Maps
 ### Autocomplete app for Countries
 
-![Countries Maps](https://countries-search.herokuapp.com/)
+(https://countries-search.herokuapp.com/)
 
 
 ## What?
