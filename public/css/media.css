@@ -1,4 +1,4 @@
-@media only screen 
+@media only screen
     and (max-width: 600px){
         *{
             padding:0;
@@ -8,7 +8,7 @@
         body{
             width: 100%;
             height: 100vh;
-            background: url(../img/cover.jpeg) center center no-repeat;
+            background: url("../img/cover.jpeg") center center no-repeat;
             background-size: cover;
             padding:30px 5px 0px 5px;
         }
@@ -56,7 +56,7 @@
             color: bisque;
             display: inline-block;
             cursor: pointer;
-            
+
         }
         @keyframes rotate {
             0%  {transform: rotate(0deg);}
@@ -108,7 +108,7 @@
             visibility: hidden;
           }
 }
-	
+
 /*****************************************************************************/
 @media(min-width:601px)
     and (max-width:900px){
@@ -120,7 +120,7 @@
         body{
             width: 100%;
             height: 100vh;
-            background: url(../img/cover.jpeg) center center no-repeat;
+            background:  url("../img/cover.jpeg") center center no-repeat;
             background-size: cover;
             padding: 50px 20px 10px 20px;
         }
@@ -168,7 +168,7 @@
             color: bisque;
             display: inline-block;
             cursor: pointer;
-            
+
         }
         @keyframes rotate {
             0%  {transform: rotate(0deg);}
@@ -232,7 +232,7 @@
         body{
             width: 100%;
             height: 100vh;
-            background: url(../img/cover.jpeg) center center no-repeat;
+            background: url("../img/cover.jpeg")  center center no-repeat;
             background-size: cover;
             padding: 50px 20px 10px 20px;
         }
@@ -280,7 +280,7 @@
             color: bisque;
             display: inline-block;
             cursor: pointer;
-            
+
         }
         @keyframes rotate {
             0%  {transform: rotate(0deg);}
