@@ -1,7 +1,6 @@
-# Countries Maps
+# Countries Searcher
 ### Autocomplete app for Countries
-
-![Countries Maps](https://countries-search.herokuapp.com/)
+https://countries-search.herokuapp.com/
 
 
 ## What?
@@ -12,18 +11,18 @@ Our website that give you ability to enter your country name in the search text 
 ## How?
 
 * Day 1:
-
+   *  Creating our server & router and starting to create our functions.
    *  Modularisation.
-   *  Creating our server and starting to create our functions.
    * Make the front-end designe.
 
 * Day 2:
   * Completing our functions.
   * Check our app's responsive and git a 100% of accessibility.
-  * Testing.
+  
+  ~~* Testing.~~
   * Deploying on Heroku.
 
-## What is the Sites structure?
+## What is the Sites file structure?
   The site contains 3 folders:
   1. **public folder:**
 
@@ -57,10 +56,10 @@ Our website that give you ability to enter your country name in the search text 
 
   * Developer Side:
 
-      ` git clone "git@github.com:FACG5/Seacrh_Box_Team.git"`
+     * ` git clone "git@github.com:FACG5/Seacrh_Box_Team.git"`
 
-      Run `npm install` to install all dependencies`
+     * `npm install` to install all dependencies`
 
-      Run  `node src/server.js `
+     * `npm start`   
 
 
