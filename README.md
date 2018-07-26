@@ -18,8 +18,6 @@ Our website that give you ability to enter your country name in the search text 
 * Day 2:
   * Completing our functions.
   * Check our app's responsive and git a 100% of accessibility.
-  
-  ~~* Testing.~~
   * Deploying on Heroku.
 
 ## What is the Sites file structure?
